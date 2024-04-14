@@ -33,3 +33,6 @@ No Somador/subtrator de 8 bits, foram adicionados todos os componentes (Somador
 de 8 bits, multiplexador 2x8, porta NOT e overflow). O somador funciona somando A e
 B quando o sel é ‘0’ e o subtrator soma A e B por complemento de 2 somado a 1
 quando o sel é ‘1’.
+
+> Para testar no gtkwave: abra o terminal e digite "ghdl -a *.vhdl" e pressione enter
+> se estiver tudo certo, crie um arquivo ghw com "ghdl -r <nomedoarquivodeteste(tb)> --stop-time=<tempo>ns --wave=<nomedoarquivoghw(crie um nome)>.ghw
